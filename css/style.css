@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --svg-fill-color: white;
+    --svg-fill-color-inverse: white;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    font: 16px sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+    color: white;
+    overflow: auto;
+    background: #222;
+}
+
+
+/* Major interface panes, aside, article, header, etc. */
+
+body>* {
+    padding: 10px;
+    position: fixed;
+    overflow: auto;
+    background: #222;
+}
+
+main {
+    position: absolute;
+    overflow: auto;
+    border : 5px white solid;
+    margin-left : 4vw ;
+    margin-top : 3vh;
+    padding-top : 0px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 4px;
+    font-size: 25px;
+}
+main > span {
+    padding : 5px;
+}
+.CamSize{
+    position: relative;
+    top: 10vh;    
+    left:3vw;
+    z-index: -1;
+}
+#Front {
+    position: relative;
+    top: 0;
+    z-index:0;
+}
+#Ground {
+    position: relative;
+    top:0;
+    z-index:0;
+
+}
+#FontSize{
+    left:50vw;
+    top:50vh;
+    z-index:3;
+}
+#Panel{
+    padding: 0;
+    position: fixed;
+    background: white;
+    left: 25vw;
+    bottom: 5vh;
+    width: 18vw;
+    height : 30vh;
+    background-color: white;
+
+}
+#Cylinder{
+    left: 3vw;
+    bottom : 5vh;
+    background: white;
+    width:18vw;
+    height:30vh;
+} 
+#Chassis{
+    left: 47vw;
+    bottom : 5vh;
+    background: white;
+    width:18vw;
+    height:30vh;
+} 
+#FrontBar{
+    left:50vw;
+    top:12vh;
+    width: 5vh;
+    height: 50vh;
+    background: white;
+    z-index: 4;
+}
+
+/*
+#timer {
+    font-family: monospace;
+    display: block;
+    height: 20vh;
+    width: 25vw;
+    top: 6vh;
+    left: 1vw;
+    font-size: 20vh;
+    line-height: .8;
+    color: red;
+}
+#Maraho{
+    color : red;
+    font-family: monospace;
+    display: block;
+    height: 20vh;
+    width: 25vw;
+    top: 0;
+    left: 1vw;
+    font-size: 5vh; 
+}
+
+#Front {
+    padding: 0;
+    position: fixed;
+    top: 3vh;
+    left: 25vw;
+    width: 30vw;
+    height: 50vh;
+    overflow: hidden;
+    background-color: beige;
+}
+#FrontBar{
+    padding: 0;
+    position: fixed;
+    top: 3vh;
+    left: 39.3vw;
+    width: 0.3vw;
+    height: 50vh;
+    overflow: hidden;
+    background-color:white;
+}
+
+#Ground {
+    padding: 0;
+    position: fixed;
+    top: 3vh;
+    left: 60vw;
+    width: 30vw;
+    height: 50vh;
+    overflow: hidden;
+    background-color: #333;
+}
+#FrontTag {    
+    color : red;
+    background: white;
+
+    font-family: monospace;
+    font-size : 5vh;
+    display: block;
+    
+     height:6vh;
+    width: 16vh;
+
+    left: 36vw;
+    bottom: 40vh;
+
+}  
+#GroundTag {    
+    color : red;
+    background:white;
+    font-family: monospace;
+    font-size : 5vh;
+    display: block;
+    
+    height:6vh;
+    width: 18vh;
+
+    left: 70vw;
+    bottom: 40vh;
+}
+.Item{
+  background: greenyellow;
+  width:23vw;
+  height:40vh ;
+  left: 1vw;
+  bottom:0;
+
+}
+    #Panel{
+        padding: 0;
+        position: fixed;
+        background: white;
+        left: 1vw;
+        bottom:42vh;
+        width: 18vw;
+        height : 30vh;
+        overflow: hidden;
+        background-color: white;
+
+    }    
+    #Power{    
+        left: 1vw;
+        bottom: 10vh;
+        font-size: 2.5vh;
+
+    }
+    #Connected{
+        left: 1vw;
+        color: white;
+        font-size: 3vh;
+        height: 6vh;
+        width:30vh;
+        bottom : 3vh;
+
+
+    }
+    #WIFI{
+        color: white;
+        font-size: 3vh;
+        height: 4vh;
+        width:30vh;
+        left: 1vw;
+        bottom: 16vh;
+    }
+    #Cylinder{
+        left: 80 vw;
+        bottom : 10vh;
+        width: 600px;
+    } */
+
